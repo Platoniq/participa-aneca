@@ -60,3 +60,8 @@ jobs:
           RAILS_ENV: test
           DATABASE_USERNAME: postgres
           DATABASE_PASSWORD: postgres
+
+      - name: Upload coverage reports to Codecov
+        uses: codecov/codecov-action@v3
+        env:
+          CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}

@@ -1,5 +1,10 @@
 # participa_aneca
 
+[![[CI] Lint](https://github.com/Platoniq/participa-aneca/actions/workflows/lint.yml/badge.svg)](https://github.com/Platoniq/participa-aneca/actions/workflows/lint.yml)
+[![[CI] Test](https://github.com/Platoniq/participa-aneca/actions/workflows/test.yml/badge.svg)](https://github.com/Platoniq/participa-aneca/actions/workflows/test.yml)
+[![Maintainability](https://api.codeclimate.com/v1/badges/57cd5b8ca8064dfff86c/maintainability)](https://codeclimate.com/github/Platoniq/participa-aneca/maintainability)
+[![codecov](https://codecov.io/gh/Platoniq/participa-aneca/branch/main/graph/badge.svg)](https://codecov.io/gh/Platoniq/participa-aneca)
+
 Free Open-Source participatory democracy, citizen participation and open government for cities and organizations
 
 This is the open-source repository for participa_aneca, based on [Decidim](https://github.com/decidim/decidim).

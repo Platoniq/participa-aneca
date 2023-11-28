@@ -10,6 +10,13 @@ require "spec_helper"
 require "rspec/rails"
 
 require "decidim/dev"
+require "simplecov"
+SimpleCov.start "rails"
+
+if ENV["CODECOV"]
+  require "codecov"
+  SimpleCov.formatter = SimpleCov::Formatter::Codecov
+end
 
 Decidim::Dev.dummy_app_path = File.expand_path(File.join(__dir__, ".."))
 
