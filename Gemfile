@@ -39,3 +39,7 @@ group :development do
   gem "spring-watcher-listen", "~> 2.0"
   gem "web-console", "~> 4.2"
 end
+
+group :production do
+  gem "sidekiq", "~> 6.0"
+end
