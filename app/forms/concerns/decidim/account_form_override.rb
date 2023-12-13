@@ -7,7 +7,6 @@ module Decidim
     extend ActiveSupport::Concern
 
     included do
-
       def map_model(model)
         map_model_centers(model)
         map_model_extra_user_fields(model)
