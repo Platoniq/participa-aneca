@@ -1,3 +1,20 @@
+GIT
+  remote: https://github.com/Platoniq/decidim-module-extra_user_fields
+  revision: e6122fd80135a7f84eb416ff2cf589e2951bb633
+  specs:
+    decidim-extra_user_fields (0.27.2)
+      country_select (~> 4.0)
+      decidim-core (>= 0.27.0, < 0.28)
+      deface (~> 1.5)
+
+GIT
+  remote: https://github.com/mainio/decidim-module-term_customizer
+  revision: abbf0c69e1bcaafebc5aa4f8da22fdb64ce62149
+  specs:
+    decidim-term_customizer (0.27.0)
+      decidim-admin (~> 0.27.0)
+      decidim-core (~> 0.27.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -167,6 +184,13 @@ GEM
     commonmarker (0.23.9)
     concurrent-ruby (1.1.10)
     connection_pool (2.4.1)
+    countries (3.1.0)
+      i18n_data (~> 0.11.0)
+      sixarm_ruby_unaccent (~> 1.1)
+      unicode_utils (~> 1.4)
+    country_select (4.0.0)
+      countries (~> 3.0)
+      sort_alphabetical (~> 1.0)
     crack (0.4.5)
       rexml
     crass (1.0.6)
@@ -221,6 +245,9 @@ GEM
     decidim-budgets (0.27.4)
       decidim-comments (= 0.27.4)
       decidim-core (= 0.27.4)
+    decidim-centers (0.1.1)
+      decidim-core (>= 0.27.0, < 0.28)
+      deface (~> 1.9)
     decidim-comments (0.27.4)
       decidim-core (= 0.27.4)
       redcarpet (~> 3.5, >= 3.5.1)
@@ -348,6 +375,12 @@ GEM
     declarative-builder (0.1.0)
       declarative-option (< 0.2.0)
     declarative-option (0.1.0)
+    deface (1.9.0)
+      actionview (>= 5.2)
+      nokogiri (>= 1.6)
+      polyglot
+      railties (>= 5.2)
+      rainbow (>= 2.1.0)
     descendants_tracker (0.0.4)
       thread_safe (~> 0.3, >= 0.3.1)
     devise (4.9.2)
@@ -470,6 +503,7 @@ GEM
       rails-i18n
       rainbow (>= 2.2.2, < 4.0)
       terminal-table (>= 1.5.1)
+    i18n_data (0.11.0)
     icalendar (2.8.0)
       ice_cube (~> 0.16)
     ice_cube (0.16.4)
@@ -600,6 +634,7 @@ GEM
     pg_search (2.3.6)
       activerecord (>= 5.2)
       activesupport (>= 5.2)
+    polyglot (0.3.5)
     premailer (1.21.0)
       addressable
       css_parser (>= 1.12.0)
@@ -757,12 +792,15 @@ GEM
       simplecov (~> 0.19)
     simplecov-html (0.12.3)
     simplecov_json_formatter (0.1.4)
+    sixarm_ruby_unaccent (1.2.2)
     smart_properties (1.17.0)
     snaky_hash (2.0.1)
       hashie
       version_gem (~> 1.1, >= 1.1.1)
     social-share-button (1.2.4)
       coffee-rails
+    sort_alphabetical (1.1.0)
+      unicode_utils (>= 1.2.2)
     spring (2.1.1)
     spring-watcher-listen (2.0.1)
       listen (>= 2.7, < 4.0)
@@ -792,6 +830,7 @@ GEM
       concurrent-ruby (~> 1.0)
     uber (0.1.0)
     unicode-display_width (2.4.2)
+    unicode_utils (1.4.0)
     valid_email2 (2.3.1)
       activemodel (>= 3.2)
       mail (~> 2.5)
@@ -843,6 +882,8 @@ GEM
 
 PLATFORMS
   arm64-darwin-21
+  arm64-darwin-22
+  arm64-darwin-23
   x86_64-linux
 
 DEPENDENCIES
@@ -858,7 +899,10 @@ DEPENDENCIES
   capistrano-sidekiq
   codecov
   decidim (= 0.27.4)
+  decidim-centers (~> 0.1.0)
   decidim-dev (= 0.27.4)
+  decidim-extra_user_fields!
+  decidim-term_customizer!
   faker (~> 2.14)
   figaro (~> 1.2)
   letter_opener_web (~> 2.0)
@@ -876,7 +920,7 @@ DEPENDENCIES
   wicked_pdf (~> 2.1)
 
 RUBY VERSION
-   ruby 3.0.2p107
+   ruby 3.0.6p216
 
 BUNDLED WITH
    2.3.20
