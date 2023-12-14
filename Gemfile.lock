@@ -196,6 +196,12 @@ GEM
     crass (1.0.6)
     css_parser (1.14.0)
       addressable
+    database_cleaner (2.0.2)
+      database_cleaner-active_record (>= 2, < 3)
+    database_cleaner-active_record (2.1.0)
+      activerecord (>= 5.a)
+      database_cleaner-core (~> 2.0.0)
+    database_cleaner-core (2.0.1)
     date_validator (0.12.0)
       activemodel (>= 3)
       activesupport (>= 3)
@@ -898,6 +904,7 @@ DEPENDENCIES
   capistrano-rbenv
   capistrano-sidekiq
   codecov
+  database_cleaner
   decidim (= 0.27.4)
   decidim-centers (~> 0.1.0)
   decidim-dev (= 0.27.4)

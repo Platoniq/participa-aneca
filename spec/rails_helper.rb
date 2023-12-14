@@ -10,17 +10,18 @@ require "spec_helper"
 require "rspec/rails"
 
 require "decidim/dev"
-require "simplecov"
-SimpleCov.start "rails"
+
+Decidim::Dev.dummy_app_path = File.expand_path(File.join(__dir__, ".."))
+
+require "decidim/dev/test/base_spec_helper"
+SimpleCov.start "rails" if ENV["SIMPLECOV"]
 
 if ENV["CODECOV"]
   require "codecov"
   SimpleCov.formatter = SimpleCov::Formatter::Codecov
 end
 
-Decidim::Dev.dummy_app_path = File.expand_path(File.join(__dir__, ".."))
-
-require "decidim/dev/test/base_spec_helper"
+require "support/database_cleaner"
 
 # Add additional requires below this line. Rails is not loaded until this point!
 
