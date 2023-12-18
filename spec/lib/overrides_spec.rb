@@ -13,6 +13,13 @@ checksums = [
     }
   },
   {
+    package: "decidim-core",
+    files: {
+      "/app/views/layouts/decidim/_logo.html.erb" => "ab01dd1df9ce62cbd62f640a3b5018b2",
+      "/app/views/layouts/decidim/_mini_footer.html.erb" => "5a842f3e880f24f49789ee2f72d96f60",
+    }
+  },
+  {
     package: "decidim-extra_user_fields",
     files: {
       "/app/forms/concerns/decidim/extra_user_fields/forms_definitions.rb" => "b59f5bf2a48e27213a8cacf22aaf6723"
