@@ -1,0 +1,22 @@
+@import "./variables";
+
+.button.hollow {
+  color: $color-green !important;
+  border-color: $color-green;
+}
+
+.button.hollow:hover {
+  color: $color-white !important;
+}
+
+.button {
+  color: $color-white;
+}
+
+.button:hover {
+  color: $color-white;
+}
+
+.button--sc {
+  font-weight: 400;
+}

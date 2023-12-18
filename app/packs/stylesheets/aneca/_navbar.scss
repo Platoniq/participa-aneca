@@ -1,0 +1,96 @@
+@import "./variables";
+
+.title-bar {
+  background: $color-green;
+  color: $color-white;
+}
+
+.topbar__dropmenu > ul > li > a, .topbar__admin__link a{
+  color: $color-white;
+  font-weight: 600;
+}
+
+.topbar__user__login a:hover {
+  color: $color-white;
+}
+
+@media print, screen and (min-width: 40em) {
+  .topbar__user__login a, .topbar__user__login a:hover {
+    color: $color-white;
+  }
+}
+
+.topbar__admin__link a span{
+  padding-left: 0.3rem;
+}
+
+.topbar__dropmenu .is-dropdown-submenu li a {
+  color: $color-green70;
+}
+
+.topbar__admin__link a:hover {
+  color:$color-white;
+}
+
+.topbar__notifications .icon, .topbar__conversations .icon {
+  fill: $color-white;
+  opacity: 0.6;
+}
+
+.topbar__dropmenu > ul > li > a::after{
+  margin-top: -1px !important;
+  border-top-color: $color-white !important;
+}
+
+.dropdown.menu > li.is-active > a {
+  background: transparent;
+  color: $color-green70;
+}
+
+.logo-wrapper {
+  img {
+    max-height: 6rem;
+  }
+}
+
+.topbar__user{
+  display: inline-block;
+  padding-right: 2.5rem;
+  margin-left: 2rem;
+
+  @media (min-width: (1300 * .0625) + em){
+    padding-right: 2.5rem;
+  }
+}
+
+.topbar__user__logged{
+
+  @media (min-width: (1300 * .0625) + em){
+    padding-right: 2.5rem;
+  }
+}
+
+.main-nav__link a {
+  color: $color-white;
+}
+
+.main-nav__link--active a {
+  box-shadow: inset 0 4px 0 0 $color-green70;
+}
+
+.topbar__search input {
+  background: $color-gray;
+}
+
+.topbar__search:not(:focus-within) button {
+  background: $color-gray;
+}
+
+.navbar {
+  background: $color-gray;
+}
+
+.topbar__dropmenu > ul > li > a, .topbar__admin__link a,
+.topbar__user__login a {
+  font-weight: 400;
+}

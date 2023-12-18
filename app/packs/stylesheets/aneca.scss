@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "OpenSans";
+  src: url("fonts/OpenSans-VariableFont.ttf") format("truetype");
+}
+
+@import "aneca/variables";
+@import "aneca/footer";
+@import "aneca/navbar";
+@import "aneca/body";
+@import "aneca/buttons";
+@import "aneca/cards";
+@import "aneca/typography";
+@import "aneca/orgchart";

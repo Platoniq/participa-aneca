@@ -1,0 +1,11 @@
+@import "./variables";
+
+.orgchart .as-text {
+  fill: $color-green70;
+  font-weight: 400;
+}
+
+.card__link:hover {
+  color: $color-green70;
+  text-decoration: underline;
+}
