@@ -1,0 +1,13 @@
+---
+
+base_locale: en
+locales: [en]
+
+ignore_missing:
+  - decidim.accessibility.front_page_link
+  - decidim.accessibility.logo
+  - layouts.decidim.footer.cc_by_license
+  - layouts.decidim.footer.made_with_open_source
+  - layouts.decidim.footer.decidim_logo
+  - platoniq.footer.logo
+  - platoniq.footer.text
