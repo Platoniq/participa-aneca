@@ -1,6 +1,13 @@
 # frozen_string_literal: true
 
 ENV["RAILS_ENV"] ||= "test"
+
+require "simplecov"
+require "codecov"
+
+SimpleCov.start "rails"
+SimpleCov.formatter = SimpleCov::Formatter::Codecov if ENV["CODECOV"]
+
 require File.expand_path("../config/environment", __dir__)
 
 # Prevent database truncation if the environment is production
@@ -15,14 +22,8 @@ Decidim::Dev.dummy_app_path = File.expand_path(File.join(__dir__, ".."))
 
 require "decidim/dev/test/base_spec_helper"
 
-if ENV["CODECOV"]
-  require "codecov"
-  SimpleCov.formatter = SimpleCov::Formatter::Codecov
-end
-
-require "support/database_cleaner"
-
 # Add additional requires below this line. Rails is not loaded until this point!
+require "support/database_cleaner"
 
 # Checks for pending migrations and applies them before tests are run.
 # If you are not using ActiveRecord, you can remove these lines.
