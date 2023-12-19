@@ -14,7 +14,6 @@ require "decidim/dev"
 Decidim::Dev.dummy_app_path = File.expand_path(File.join(__dir__, ".."))
 
 require "decidim/dev/test/base_spec_helper"
-SimpleCov.start "rails" if ENV["SIMPLECOV"]
 
 if ENV["CODECOV"]
   require "codecov"
