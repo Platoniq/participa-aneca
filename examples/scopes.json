@@ -1,0 +1,948 @@
+[
+  {
+    "code": "Comisión 1",
+    "name": "Matemáticas",
+    "children": [
+      {
+        "code": "005",
+        "name": "Álgebra"
+      },
+      {
+        "code": "015",
+        "name": "Análisis Matemático"
+      },
+      {
+        "code": "265",
+        "name": "Estadística e Investigación Operativa"
+      },
+      {
+        "code": "440",
+        "name": "Geometría y Topología"
+      },
+      {
+        "code": "595",
+        "name": "Matemática Aplicada"
+      }
+    ]
+  },
+  {
+    "code": "Comisión 2",
+    "name": "Física",
+    "children": [
+      {
+        "code": "038",
+        "name": "Astronomía y Astrofísica"
+      },
+      {
+        "code": "400",
+        "name": "Física de la Tierra, Astronomía y Astrofísica"
+      },
+      {
+        "code": "247",
+        "name": "Electromagnetismo"
+      },
+      {
+        "code": "385",
+        "name": "Física Aplicada"
+      },
+      {
+        "code": "390",
+        "name": "Física Atómica Molecular y Nuclear"
+      },
+      {
+        "code": "395",
+        "name": "Física de la Materia Condensada"
+      },
+      {
+        "code": "398",
+        "name": "Física de la Tierra"
+      },
+      {
+        "code": "405",
+        "name": "Física Teórica"
+      },
+      {
+        "code": "647",
+        "name": "Óptica"
+      }
+    ]
+  },
+  {
+    "code": "Comisión 3",
+    "name": "Química",
+    "children": [
+      {
+        "code": "750",
+        "name": "Química Analítica"
+      },
+      {
+        "code": "755",
+        "name": "Química Física"
+      },
+      {
+        "code": "760",
+        "name": "Química Inorgánica"
+      },
+      {
+        "code": "765",
+        "name": "Química Orgánica"
+      }
+    ]
+  },
+  {
+    "code": "Comisión 4",
+    "name": "Ciencias de la Naturaleza",
+    "children": [
+      {
+        "code": "028",
+        "name": "Antropología Física"
+      },
+      {
+        "code": "063",
+        "name": "Botánica"
+      },
+      {
+        "code": "120",
+        "name": "Cristalografía y Mineralogía"
+      },
+      {
+        "code": "220",
+        "name": "Ecología"
+      },
+      {
+        "code": "240",
+        "name": "Edafología y Química Agrícola"
+      },
+      {
+        "code": "280",
+        "name": "Estratigrafía"
+      },
+      {
+        "code": "412",
+        "name": "Fisiología Vegetal"
+      },
+      {
+        "code": "427",
+        "name": "Geodinámica Externa"
+      },
+      {
+        "code": "428",
+        "name": "Geodinámica Interna"
+      },
+      {
+        "code": "655",
+        "name": "Paleontología"
+      },
+      {
+        "code": "685",
+        "name": "Petrología y Geoquímica"
+      },
+      {
+        "code": "819",
+        "name": "Zoología"
+      }
+    ]
+  },
+  {
+    "code": "Comisión 5",
+    "name": "Biología Celular y Molecular",
+    "children": [
+      {
+        "code": "050",
+        "name": "Biología Celular"
+      },
+      {
+        "code": "060",
+        "name": "Bioquímica y Biología Molecular"
+      },
+      {
+        "code": "420",
+        "name": "Genética"
+      },
+      {
+        "code": "630",
+        "name": "Microbiología"
+      }
+    ]
+  },
+  {
+    "code": "Comisión 6",
+    "name": "Ciencias Biomédicas",
+    "children": [
+      {
+        "code": "020",
+        "name": "Anatomía Patológica"
+      },
+      {
+        "code": "027",
+        "name": "Anatomía y Embriología Humana"
+      },
+      {
+        "code": "310",
+        "name": "Farmacia y Tecnología Farmacéutica"
+      },
+      {
+        "code": "315",
+        "name": "Farmacología"
+      },
+      {
+        "code": "410",
+        "name": "Fisiología"
+      },
+      {
+        "code": "443",
+        "name": "Histología"
+      },
+      {
+        "code": "566",
+        "name": "Inmunología"
+      },
+      {
+        "code": "630",
+        "name": "Microbiología"
+      },
+      {
+        "code": "660",
+        "name": "Parasitología"
+      },
+      {
+        "code": "807",
+        "name": "Toxicología"
+      }
+    ]
+  },
+  {
+    "code": "Comisión 7",
+    "name": "Medicina Clínica",
+    "children": [
+      {
+        "code": "090",
+        "name": "Cirugía"
+      },
+      {
+        "code": "183",
+        "name": "Dermatología"
+      },
+      {
+        "code": "610",
+        "name": "Medicina"
+      },
+      {
+        "code": "613",
+        "name": "Medicina Legal y Forense"
+      },
+      {
+        "code": "645",
+        "name": "Obstetricia y Ginecología"
+      },
+      {
+        "code": "646",
+        "name": "Oftalmología"
+      },
+      {
+        "code": "653",
+        "name": "Otorrinolaringología"
+      },
+      {
+        "code": "670",
+        "name": "Pediatría"
+      },
+      {
+        "code": "745",
+        "name": "Psiquiatría"
+      },
+      {
+        "code": "770",
+        "name": "Radiología y Medicina Física"
+      },
+      {
+        "code": "817",
+        "name": "Urología"
+      },
+      {
+        "code": "830",
+        "name": "Traumatología y Ortopedia"
+      }
+    ]
+  },
+  {
+    "code": "Comisión 8",
+    "name": "Especialidades Sanitarias I",
+    "children": [
+      {
+        "code": "255",
+        "name": "Enfermería"
+      },
+      {
+        "code": "275",
+        "name": "Estomatología"
+      },
+      {
+        "code": "413",
+        "name": "Fisioterapia"
+      }
+    ]
+  },
+  {
+    "code": "Comisión 9",
+    "name": "Especialidades Sanitarias II",
+    "children": [
+      {
+        "code": "615",
+        "name": "Medicina Preventiva y Salud Pública"
+      },
+      {
+        "code": "025",
+        "name": "Anatomía y Anatomía Patológica Comparadas"
+      },
+      {
+        "code": "617",
+        "name": "Medicina y Cirugía Animal"
+      },
+      {
+        "code": "640",
+        "name": "Nutrición y Bromatología"
+      },
+      {
+        "code": "773",
+        "name": "Sanidad Animal"
+      }
+    ]
+  },
+  {
+    "code": "Comisión 10",
+    "name": "Ingeniería Química, de los Materiales y del Medio Natural",
+    "children": [
+      {
+        "code": "065",
+        "name": "Ciencia de los Materiales e Ingeniería Metalúrgica"
+      },
+      {
+        "code": "500",
+        "name": "Ingeniería Agroforestal"
+      },
+      {
+        "code": "550",
+        "name": "Ingeniería Nuclear"
+      },
+      {
+        "code": "555",
+        "name": "Ingeniería Química"
+      },
+      {
+        "code": "565",
+        "name": "Ingeniería Textil y Papelera"
+      },
+      {
+        "code": "700",
+        "name": "Producción Animal"
+      },
+      {
+        "code": "705",
+        "name": "Producción Vegetal"
+      },
+      {
+        "code": "780",
+        "name": "Tecnología de los Alimentos"
+      },
+      {
+        "code": "790",
+        "name": "Tecnologías del Medio Ambiente"
+      }
+    ]
+  },
+  {
+    "code": "Comisión 11",
+    "name": "Ingeniería Mecánica y de la Navegación",
+    "children": [
+      {
+        "code": "083",
+        "name": "Ciencias y Técnicas de la Navegación"
+      },
+      {
+        "code": "115",
+        "name": "Construcciones Navales"
+      },
+      {
+        "code": "495",
+        "name": "Ingeniería Aeroespacial"
+      },
+      {
+        "code": "515",
+        "name": "Ingeniería de los Procesos de Fabricación"
+      },
+      {
+        "code": "530",
+        "name": "Ingeniería e Infraestructuras de los Transportes"
+      },
+      {
+        "code": "540",
+        "name": "Ingeniería Hidráulica"
+      },
+      {
+        "code": "545",
+        "name": "Ingeniería Mecánica"
+      },
+      {
+        "code": "590",
+        "name": "Máquinas y Motores Térmicos"
+      },
+      {
+        "code": "600",
+        "name": "Mecánica de Fluidos"
+      },
+      {
+        "code": "605",
+        "name": "Mecánica de Medios Continuos y Teoría de Estructuras"
+      },
+      {
+        "code": "720",
+        "name": "Proyectos de Ingeniería"
+      }
+    ]
+  },
+  {
+    "code": "Comisión 12",
+    "name": "Ingeniería Electrónica",
+    "children": [
+      {
+        "code": "250",
+        "name": "Electrónica"
+      },
+      {
+        "code": "520",
+        "name": "Ingeniería de Sistemas y Automática"
+      },
+      {
+        "code": "535",
+        "name": "Ingeniería Eléctrica"
+      }
+    ]
+  },
+  {
+    "code": "Comisión 13",
+    "name": "Ingeniería de Telecomunicaciones",
+    "children": [
+      {
+        "code": "560",
+        "name": "Ingeniería Telemática"
+      },
+      {
+        "code": "785",
+        "name": "Tecnología Electrónica"
+      },
+      {
+        "code": "800",
+        "name": "Teoría de la Señal y Comunicaciones"
+      }
+    ]
+  },
+  {
+    "code": "Comisión 14",
+    "name": "Ingeniería Informática",
+    "children": [
+      {
+        "code": "035",
+        "name": "Arquitectura y Tecnología de Computadores"
+      },
+      {
+        "code": "075",
+        "name": "Ciencia de la Computación e Inteligencia Artificial"
+      },
+      {
+        "code": "570",
+        "name": "Lenguajes y Sistemas Informáticos"
+      }
+    ]
+  },
+  {
+    "code": "Comisión 15",
+    "name": "Ingeniería Civil",
+    "children": [
+      {
+        "code": "295",
+        "name": "Explotación de las Minas"
+      },
+      {
+        "code": "305",
+        "name": "Expresión Gráfica en la Ingeniería"
+      },
+      {
+        "code": "505",
+        "name": "Ingeniería Cartográfica Geodésica y Fotogrametría"
+      },
+      {
+        "code": "510",
+        "name": "Ingeniería de la Construcción"
+      },
+      {
+        "code": "525",
+        "name": "Ingeniería del Terreno"
+      },
+      {
+        "code": "710",
+        "name": "Prospección e Investigación Minera"
+      }
+    ]
+  },
+  {
+    "code": "Comisión 16",
+    "name": "Arquitectura, Construcción y Urbanismo",
+    "children": [
+      {
+        "code": "100",
+        "name": "Composición Arquitectónica"
+      },
+      {
+        "code": "110",
+        "name": "Construcciones Arquitectónicas"
+      },
+      {
+        "code": "300",
+        "name": "Expresión Gráfica Arquitectónica"
+      },
+      {
+        "code": "715",
+        "name": "Proyectos Arquitectónicos"
+      },
+      {
+        "code": "815",
+        "name": "Urbanística y Ordenación del Territorio"
+      }
+    ]
+  },
+  {
+    "code": "Comisión 17",
+    "name": "Derecho I",
+    "children": [
+      {
+        "code": "125",
+        "name": "Derecho Administrativo"
+      },
+      {
+        "code": "135",
+        "name": "Derecho Constitucional"
+      },
+      {
+        "code": "145",
+        "name": "Derecho Eclesiástico de Estado"
+      },
+      {
+        "code": "150",
+        "name": "Derecho Financiero y Tributario"
+      },
+      {
+        "code": "160",
+        "name": "Derecho Internacional Público y Relaciones Internacionales"
+      },
+      {
+        "code": "170",
+        "name": "Derecho Penal"
+      }
+    ]
+  },
+  {
+    "code": "Comisión 18",
+    "name": "Derecho II",
+    "children": [
+      {
+        "code": "130",
+        "name": "Derecho Civil"
+      },
+      {
+        "code": "140",
+        "name": "Derecho del Trabajo y de la Seguridad Social"
+      },
+      {
+        "code": "155",
+        "name": "Derecho Internacional Privado"
+      },
+      {
+        "code": "165",
+        "name": "Derecho Mercantil"
+      },
+      {
+        "code": "175",
+        "name": "Derecho Procesal"
+      },
+      {
+        "code": "180",
+        "name": "Derecho Romano"
+      },
+      {
+        "code": "381",
+        "name": "Filosofía del Derecho"
+      },
+      {
+        "code": "470",
+        "name": "Historia del Derecho y de las Instituciones"
+      }
+    ]
+  },
+  {
+    "code": "Comisión 19",
+    "name": "Ciencias Económicas",
+    "children": [
+      {
+        "code": "225",
+        "name": "Economía Aplicada"
+      },
+      {
+        "code": "235",
+        "name": "Economía, Sociología y Política Agraria"
+      },
+      {
+        "code": "415",
+        "name": "Fundamentos de Análisis Económico"
+      },
+      {
+        "code": "480",
+        "name": "Historia e Instituciones Económicas"
+      },
+      {
+        "code": "623",
+        "name": "Métodos Cuantitativos para la Economía y la Empresa"
+      }
+    ]
+  },
+  {
+    "code": "Comisión 20",
+    "name": "Ciencias Empresariales",
+    "children": [
+      {
+        "code": "095",
+        "name": "Comercialización e Investigación de Mercados"
+      },
+      {
+        "code": "230",
+        "name": "Economía Financiera y Contabilidad"
+      },
+      {
+        "code": "650",
+        "name": "Organización de Empresas"
+      }
+    ]
+  },
+  {
+    "code": "Comisión 21",
+    "name": "Ciencias de la Educación I",
+    "children": [
+      {
+        "code": "189",
+        "name": "Didáctica de la Expresión Musical"
+      },
+      {
+        "code": "193",
+        "name": "Didáctica de la Expresión Plástica"
+      },
+      {
+        "code": "195",
+        "name": "Didáctica de la Lengua y Literatura"
+      },
+      {
+        "code": "200",
+        "name": "Didáctica de la Matemática"
+      },
+      {
+        "code": "205",
+        "name": "Didáctica de las Ciencias Experimentales"
+      },
+      {
+        "code": "210",
+        "name": "Didáctica de las Ciencias Sociales"
+      },
+      {
+        "code": "625",
+        "name": "Métodos de Investigación y Diagnóstico en Educación"
+      }
+    ]
+  },
+  {
+    "code": "Comisión 22",
+    "name": "Ciencias de la Educación II",
+    "children": [
+      {
+        "code": "187",
+        "name": "Didáctica de la Expresión Corporal"
+      },
+      {
+        "code": "215",
+        "name": "Didáctica y Organización Escolar"
+      },
+      {
+        "code": "245",
+        "name": "Educación Física y Deportiva"
+      },
+      {
+        "code": "805",
+        "name": "Teoría e Historia de la Educación"
+      }
+    ]
+  },
+  {
+    "code": "Comisión 23",
+    "name": "Ciencias del Comportamiento",
+    "children": [
+      {
+        "code": "620",
+        "name": "Metodología de las Ciencias del Comportamiento"
+      },
+      {
+        "code": "680",
+        "name": "Personalidad, Evaluación y Tratamiento Psicológico"
+      },
+      {
+        "code": "725",
+        "name": "Psicobiología"
+      },
+      {
+        "code": "730",
+        "name": "Psicología Básica"
+      },
+      {
+        "code": "735",
+        "name": "Psicología Evolutiva y de la Educación"
+      },
+      {
+        "code": "740",
+        "name": "Psicología Social"
+      }
+    ]
+  },
+  {
+    "code": "Comisión 24",
+    "name": "Ciencias Sociales I",
+    "children": [
+      {
+        "code": "010",
+        "name": "Análisis Geográfico Regional"
+      },
+      {
+        "code": "030",
+        "name": "Antropología Social"
+      },
+      {
+        "code": "070",
+        "name": "Ciencia Política y de la Administración"
+      },
+      {
+        "code": "383",
+        "name": "Filosofía Moral"
+      },
+      {
+        "code": "430",
+        "name": "Geografía Física"
+      },
+      {
+        "code": "435",
+        "name": "Geografía Humana"
+      },
+      {
+        "code": "475",
+        "name": "Historia del Pensamiento y de los Movimientos Sociales y Políticos"
+      },
+      {
+        "code": "775",
+        "name": "Sociología"
+      }
+    ]
+  },
+  {
+    "code": "Comisión 25",
+    "name": "Ciencias Sociales II",
+    "children": [
+      {
+        "code": "040",
+        "name": "Biblioteconomía y Documentación"
+      },
+      {
+        "code": "105",
+        "name": "Comunicación Audiovisual y Publicidad"
+      },
+      {
+        "code": "675",
+        "name": "Periodismo"
+      },
+      {
+        "code": "813",
+        "name": "Trabajo Social y Servicios Sociales"
+      }
+    ]
+  },
+  {
+    "code": "Comisión 26",
+    "name": "Historia y Filosofía",
+    "children": [
+      {
+        "code": "033",
+        "name": "Arqueología"
+      },
+      {
+        "code": "085",
+        "name": "Ciencias y Técnicas Historiográficas"
+      },
+      {
+        "code": "375",
+        "name": "Filosofía"
+      },
+      {
+        "code": "445",
+        "name": "Historia Antigua"
+      },
+      {
+        "code": "450",
+        "name": "Historia Contemporánea"
+      },
+      {
+        "code": "455",
+        "name": "Historia de América"
+      },
+      {
+        "code": "460",
+        "name": "Historia de la Ciencia"
+      },
+      {
+        "code": "475",
+        "name": "Historia del Pensamiento y de los Movimientos Sociales y Políticos"
+      },
+      {
+        "code": "485",
+        "name": "Historia Medieval"
+      },
+      {
+        "code": "490",
+        "name": "Historia Moderna"
+      },
+      {
+        "code": "585",
+        "name": "Lógica y Filosofía de la Ciencia"
+      },
+      {
+        "code": "695",
+        "name": "Prehistoria"
+      }
+    ]
+  },
+  {
+    "code": "Comisión 27",
+    "name": "Lingüística y filologías clásicas",
+    "children": [
+      {
+        "code": "340",
+        "name": "Filología Griega"
+      },
+      {
+        "code": "355",
+        "name": "Filología Latina"
+      },
+      {
+        "code": "360",
+        "name": "Filología Románica"
+      },
+      {
+        "code": "567",
+        "name": "Lengua Española"
+      },
+      {
+        "code": "575",
+        "name": "Lingüística General"
+      },
+      {
+        "code": "580",
+        "name": "Lingüística Indoeuropea"
+      },
+      {
+        "code": "583",
+        "name": "Literatura Española"
+      },
+      {
+        "code": "796",
+        "name": "Teoría de la Literatura y Literatura Comparada"
+      }
+    ]
+  },
+  {
+    "code": "Comisión 28",
+    "name": "Filologías modernas",
+    "children": [
+      {
+        "code": "285",
+        "name": "Estudios Árabes e Islámicos"
+      },
+      {
+        "code": "568",
+        "name": "Estudios de Asia Oriental"
+      },
+      {
+        "code": "290",
+        "name": "Estudios Hebreos y Arameos"
+      },
+      {
+        "code": "320",
+        "name": "Filología Alemana"
+      },
+      {
+        "code": "325",
+        "name": "Filología Catalana"
+      },
+      {
+        "code": "327",
+        "name": "Filología Eslava"
+      },
+      {
+        "code": "335",
+        "name": "Filología Francesa"
+      },
+      {
+        "code": "345",
+        "name": "Filología Inglesa"
+      },
+      {
+        "code": "350",
+        "name": "Filología Italiana"
+      },
+      {
+        "code": "365",
+        "name": "Filología Vasca"
+      },
+      {
+        "code": "370",
+        "name": "Filología Gallega y Portuguesa"
+      },
+      {
+        "code": "814",
+        "name": "Traducción e Interpretación"
+      }
+    ]
+  },
+  {
+    "code": "Comisión 29",
+    "name": "Arte",
+    "children": [
+      {
+        "code": "185",
+        "name": "Dibujo"
+      },
+      {
+        "code": "260",
+        "name": "Escultura"
+      },
+      {
+        "code": "270",
+        "name": "Estética y Teoría de las Artes"
+      },
+      {
+        "code": "465",
+        "name": "Historia del Arte"
+      },
+      {
+        "code": "635",
+        "name": "Música"
+      },
+      {
+        "code": "690",
+        "name": "Pintura"
+      }
+    ]
+  }
+]
