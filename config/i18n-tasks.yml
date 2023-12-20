@@ -6,10 +6,12 @@ locales: [en]
 ignore_missing:
   - decidim.accessibility.front_page_link
   - decidim.accessibility.logo
+  - decidim.proposals.participatory_text_proposal.buttons.amend
+  - decidim.proposals.participatory_text_proposal.buttons.comment
+  - decidim.proposals.participatory_text_proposal.buttons.comments
   - decidim.proposals.proposals.participatory_texts.index.document_index
   - layouts.decidim.footer.cc_by_license
   - layouts.decidim.footer.decidim_logo
   - layouts.decidim.footer.made_with_open_source
   - platoniq.footer.logo
   - platoniq.footer.text
-
