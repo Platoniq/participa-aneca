@@ -1,0 +1,7 @@
+---
+
+base_locale: en
+locales: [en]
+
+ignore_missing:
+  - decidim.proposals.proposals.participatory_texts.index.document_index
