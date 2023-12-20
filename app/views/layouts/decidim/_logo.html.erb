@@ -1,0 +1,7 @@
+<% if organization %>
+  <%= link_to decidim.root_url(host: organization.host), "aria-label": t("front_page_link", scope: "decidim.accessibility") do %>
+    <%= image_pack_tag("media/images/aneca-logo-white.png", alt: t("logo", scope: "decidim.accessibility", organization: organization.name)) %>
+  <% end %>
+<% else %>
+  <%= image_pack_tag("media/images/aneca-logo-white.png", alt: t("logo", scope: "decidim.accessibility", organization: Decidim.application_name)) %>
+<% end %>
