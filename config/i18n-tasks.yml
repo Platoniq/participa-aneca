@@ -5,3 +5,6 @@ locales: [en]
 
 ignore_missing:
   - decidim.proposals.proposals.participatory_texts.index.document_index
+  - decidim.proposals.participatory_text_proposal.buttons.amend
+  - decidim.proposals.participatory_text_proposal.buttons.comments
+  - decidim.proposals.participatory_text_proposal.buttons.comment

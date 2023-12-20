@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require "spec_helper"
+require "rails_helper"
 
 # We make sure that the checksum of the file overriden is the same
 # as the expected. If this test fails, it means that the overriden
@@ -21,6 +21,7 @@ checksums = [
   {
     package: "decidim-proposals",
     files: {
+      "/app/cells/decidim/proposals/participatory_text_proposal/buttons.erb" => "0810f2a8eebf476b67632227a5c73ff2",
       "/app/cells/decidim/proposals/participatory_text_proposal/show.erb" => "a6fd0029e01e712314f555a9397485f8",
       "/app/views/decidim/proposals/proposals/participatory_texts/_index.html.erb" => "6d3666c3c116689bae657da537d9deef"
     }
