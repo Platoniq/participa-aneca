@@ -8,7 +8,6 @@
 .topbar__dropmenu > ul > li > a,
 .topbar__admin__link a {
   color: $color-white;
-  font-weight: 600;
 }
 
 .topbar__user__login a:hover {
@@ -90,10 +89,4 @@
 
 .navbar {
   background: $color-gray;
-}
-
-.topbar__dropmenu > ul > li > a,
-.topbar__admin__link a,
-.topbar__user__login a {
-  font-weight: 400;
 }
