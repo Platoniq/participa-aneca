@@ -15,7 +15,7 @@ checksums = [
   {
     package: "decidim-extra_user_fields",
     files: {
-      "/app/forms/concerns/decidim/extra_user_fields/forms_definitions.rb" => "b59f5bf2a48e27213a8cacf22aaf6723"
+      "/app/forms/concerns/decidim/extra_user_fields/forms_definitions.rb" => "22694cd34eb45f7189a7b899828c7a69"
     }
   },
   {
