@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "OpenSans";
+  font-weight: 100 300;
+  src: url("fonts/OpenSans-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "OpenSans";
+  font-style: italic;
+  font-weight: 100 300;
+  src: url("fonts/OpenSans-LightItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "OpenSans";
+  font-weight: 400;
+  src: url("fonts/OpenSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "OpenSans";
+  font-style: italic;
+  font-weight: 400;
+  src: url("fonts/OpenSans-Italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "OpenSans";
+  font-weight: 500 900;
+  src: url("fonts/OpenSans-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "OpenSans";
+  font-style: italic;
+  font-weight: 500 900;
+  src: url("fonts/OpenSans-MediumItalic.ttf") format("truetype");
+}
+
+@import "aneca/variables";
+@import "aneca/footer";
+@import "aneca/navbar";
+@import "aneca/body";
+@import "aneca/buttons";
+@import "aneca/cards";
+@import "aneca/typography";
+@import "aneca/orgchart";
+@import "aneca/omnipresent_banner";
