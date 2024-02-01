@@ -35,6 +35,7 @@ module Decidim
         self.phone_number = extended_data[:phone_number]
         self.location = extended_data[:location]
         self.profession = extended_data[:profession]
+        self.document_id_name = extended_data[:document_id_name]
         self.document_id = extended_data[:document_id]
       end
 

@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/Platoniq/decidim-module-extra_user_fields
-  revision: e6122fd80135a7f84eb416ff2cf589e2951bb633
+  revision: 5aaf9d39906755311f511772ff1be90b2b15e69d
   specs:
     decidim-extra_user_fields (0.27.2)
       country_select (~> 4.0)
