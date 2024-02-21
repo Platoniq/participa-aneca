@@ -5,6 +5,6 @@ every "30 1 * * *" do
 end
 
 every "3 3 * * *" do
-  rake "decidim:delete_data_portability_files"
+  rake "decidim:delete_download_your_data_files"
   rake "decidim:open_data:export"
 end
