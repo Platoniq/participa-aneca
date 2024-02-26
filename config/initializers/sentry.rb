@@ -8,10 +8,6 @@ if Rails.application.secrets.sentry_enabled
     # Set traces_sample_rate to 1.0 to capture 100%
     # of transactions for performance monitoring.
     # We recommend adjusting this value in production.
-    config.traces_sample_rate = 1.0
-    # or
-    config.traces_sampler = lambda do |_context|
-      true
-    end
+    config.traces_sample_rate = ENV.fetch("SENTRY_TRACES_SAMPLE_RATE", "0.5").to_f
   end
 end
