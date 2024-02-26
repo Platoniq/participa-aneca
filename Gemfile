@@ -58,8 +58,9 @@ group :production do
   gem "sidekiq", "~> 6.0"
   gem "whenever", require: false
 
-  gem "sentry-ruby"
   gem "sentry-rails"
+  gem "sentry-ruby"
+  gem "sentry-sidekiq"
 end
 
 group :test do

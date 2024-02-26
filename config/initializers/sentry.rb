@@ -1,4 +1,7 @@
-Sentry.init do |config|
+# frozen_string_literal: true
+
+if Rails.application.secrets.sentry_enabled
+  Sentry.init do |config|
     config.dsn = ENV.fetch("SENTRY_DSN")
     config.breadcrumbs_logger = [:active_support_logger, :http_logger]
 
@@ -7,7 +10,8 @@ Sentry.init do |config|
     # We recommend adjusting this value in production.
     config.traces_sample_rate = 1.0
     # or
-    config.traces_sampler = lambda do |context|
-        true
+    config.traces_sampler = lambda do |_context|
+      true
     end
+  end
 end
