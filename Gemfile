@@ -57,6 +57,10 @@ group :production do
   gem "figaro", "~> 1.2"
   gem "sidekiq", "~> 6.0"
   gem "whenever", require: false
+
+  gem "sentry-rails"
+  gem "sentry-ruby"
+  gem "sentry-sidekiq"
 end
 
 group :test do
