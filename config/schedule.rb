@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+set :output, "log/cron.log"
+
 every "30 1 * * *" do
   rake "decidim:metrics:all"
 end
