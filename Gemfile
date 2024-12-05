@@ -64,6 +64,6 @@ group :production do
 end
 
 group :test do
-  gem "codecov", require: false
+  gem "coveralls_reborn", require: false
   gem "database_cleaner"
 end
