@@ -251,7 +251,7 @@ GEM
     decidim-budgets (0.27.4)
       decidim-comments (= 0.27.4)
       decidim-core (= 0.27.4)
-    decidim-centers (0.1.1)
+    decidim-centers (0.2.0)
       decidim-core (>= 0.27.0, < 0.28)
       deface (~> 1.9)
     decidim-comments (0.27.4)
@@ -905,6 +905,7 @@ PLATFORMS
   arm64-darwin-21
   arm64-darwin-22
   arm64-darwin-23
+  arm64-darwin-24
   x86_64-linux
 
 DEPENDENCIES
@@ -921,7 +922,7 @@ DEPENDENCIES
   codecov
   database_cleaner
   decidim (= 0.27.4)
-  decidim-centers (~> 0.1.0)
+  decidim-centers (~> 0.2.0)
   decidim-decidim_awesome (~> 0.10.0)
   decidim-dev (= 0.27.4)
   decidim-extra_user_fields!

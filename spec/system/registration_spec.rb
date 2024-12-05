@@ -11,8 +11,8 @@ describe "Registration spec", type: :system do
   let(:password) { Faker::Internet.password(min_length: 17) }
   let!(:center) { create :center, organization: organization }
   let!(:other_center) { create :center, organization: organization }
-  let!(:scope) { create :scope, organization: organization }
-  let!(:other_scope) { create :scope, organization: organization }
+  let!(:role) { create :role, organization: organization }
+  let!(:other_role) { create :role, organization: organization }
   let(:document_id) { Faker::IDNumber.spanish_citizen_number }
   let(:document_id_name) { Faker::Name.name }
 
@@ -33,7 +33,7 @@ describe "Registration spec", type: :system do
     end
 
     within ".card__centers" do
-      expect(page).to have_content("Scope")
+      expect(page).to have_content("Role")
     end
 
     expect(page).to have_content("Document ID")
@@ -49,7 +49,7 @@ describe "Registration spec", type: :system do
     end
   end
 
-  it "allows to create a new account and authorizes the user with the center and scope provided" do
+  it "allows to create a new account and authorizes the user with the center and role provided" do
     fill_in :registration_user_name, with: name
     fill_in :registration_user_nickname, with: nickname
     fill_in :registration_user_email, with: email
@@ -63,7 +63,9 @@ describe "Registration spec", type: :system do
         find("option[value='#{center.id}']").click
       end
 
-      scope_pick select_data_picker(:registration_user), scope
+      within "#registration_user_role_id" do
+        find("option[value='#{role.id}']").click
+      end
     end
 
     page.check("registration_user_newsletter")
@@ -75,11 +77,11 @@ describe "Registration spec", type: :system do
 
     expect(page).to have_content("message with a confirmation link has been sent")
     expect(Decidim::User.last.center).to eq(center)
-    expect(Decidim::User.last.scope).to eq(scope)
+    expect(Decidim::User.last.center_role).to eq(role)
     expect(Decidim::User.last.extended_data["document_id"]).to eq(document_id)
     expect(Decidim::User.last.extended_data["document_id_name"]).to eq(document_id_name)
 
     perform_enqueued_jobs
-    check_center_authorization(Decidim::Authorization.last, Decidim::User.last, center, scope)
+    check_center_authorization(Decidim::Authorization.last, Decidim::User.last, center, role: role)
   end
 end

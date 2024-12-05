@@ -13,7 +13,7 @@ gem "decidim", DECIDIM_VERSION
 # gem "decidim-initiatives", DECIDIM_VERSION
 # gem "decidim-templates", DECIDIM_VERSION
 
-gem "decidim-centers", "~> 0.1.0"
+gem "decidim-centers", "~> 0.2.0"
 gem "decidim-decidim_awesome", "~> 0.10.0"
 gem "decidim-extra_user_fields", git: "https://github.com/Platoniq/decidim-module-extra_user_fields"
 gem "decidim-term_customizer", git: "https://github.com/mainio/decidim-module-term_customizer"
