@@ -1,4 +1,13 @@
 GIT
+  remote: https://github.com/Platoniq/decidim-module-centers
+  revision: 1074001330ae55cbf3a8dd94b745f5aca1c8158d
+  branch: feat/center_and_role_abide_ignore
+  specs:
+    decidim-centers (0.2.0)
+      decidim-core (>= 0.27.0, < 0.28)
+      deface (~> 1.9)
+
+GIT
   remote: https://github.com/Platoniq/decidim-module-extra_user_fields
   revision: 5aaf9d39906755311f511772ff1be90b2b15e69d
   specs:
@@ -255,9 +264,6 @@ GEM
     decidim-budgets (0.27.4)
       decidim-comments (= 0.27.4)
       decidim-core (= 0.27.4)
-    decidim-centers (0.2.0)
-      decidim-core (>= 0.27.0, < 0.28)
-      deface (~> 1.9)
     decidim-comments (0.27.4)
       decidim-core (= 0.27.4)
       redcarpet (~> 3.5, >= 3.5.1)
@@ -932,7 +938,7 @@ DEPENDENCIES
   coveralls_reborn
   database_cleaner
   decidim (= 0.27.4)
-  decidim-centers (~> 0.2.0)
+  decidim-centers!
   decidim-decidim_awesome (~> 0.10.0)
   decidim-dev (= 0.27.4)
   decidim-extra_user_fields!
