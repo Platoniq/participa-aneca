@@ -255,7 +255,7 @@ GEM
     decidim-budgets (0.27.4)
       decidim-comments (= 0.27.4)
       decidim-core (= 0.27.4)
-    decidim-centers (0.2.0)
+    decidim-centers (0.2.1)
       decidim-core (>= 0.27.0, < 0.28)
       deface (~> 1.9)
     decidim-comments (0.27.4)
@@ -932,7 +932,7 @@ DEPENDENCIES
   coveralls_reborn
   database_cleaner
   decidim (= 0.27.4)
-  decidim-centers (~> 0.2.0)
+  decidim-centers (~> 0.2.1)
   decidim-decidim_awesome (~> 0.10.0)
   decidim-dev (= 0.27.4)
   decidim-extra_user_fields!
