@@ -9,7 +9,7 @@ checksums = [
   {
     package: "decidim-centers",
     files: {
-      "/app/forms/concerns/decidim/centers/account_form_override.rb" => "e68397eccf208adef7c77fcfb679d8cf"
+      "/app/forms/concerns/decidim/centers/account_form_override.rb" => "37573e0671c327aa6fa449be28b22dd9"
     }
   },
   {

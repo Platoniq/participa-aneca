@@ -12,7 +12,7 @@ describe Decidim::AccountForm do
       password_confirmation: user.password,
       tos_agreement: "1",
       center_id: user.center.id,
-      scope_id: user.scope.id,
+      role_id: user.center_role.id,
       document_id: document_id
     ).with_context(
       current_organization: organization,
@@ -23,7 +23,7 @@ describe Decidim::AccountForm do
   let(:organization) { create :organization, extra_user_fields: { "enabled" => true, "document_id" => { "enabled" => true } } }
   let(:user) { create :user, organization: organization }
   let!(:center_user) { create :center_user, user: user }
-  let!(:scope_user) { create :scope_user, user: user }
+  let!(:role_user) { create :role_user, user: user }
 
   context "with valid citizen number" do
     let(:document_id) { Faker::IDNumber.spanish_citizen_number }

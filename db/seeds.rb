@@ -11,12 +11,17 @@
 Decidim.seed!
 
 centers = JSON.parse(File.read(Rails.root.join("examples/centers.json")))
+roles = JSON.parse(File.read(Rails.root.join("examples/roles.json")))
 scopes = JSON.parse(File.read(Rails.root.join("examples/scopes.json")))
 organization = Decidim::Organization.first
 
 centers.each do |center_name|
   # rubocop:disable Rails/IndexWith
   Decidim::Centers::Center.create(title: Decidim.available_locales.to_h { |locale| [locale, center_name] }, organization: organization)
+end
+
+roles.each do |role_name|
+  Decidim::Centers::Role.create(title: Decidim.available_locales.to_h { |locale| [locale, role_name] }, organization: organization)
 end
 
 Decidim::Scope.delete_all

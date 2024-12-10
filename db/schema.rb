@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2023_12_19_143431) do
+ActiveRecord::Schema.define(version: 2024_12_05_100535) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "ltree"
@@ -444,6 +444,24 @@ ActiveRecord::Schema.define(version: 2023_12_19_143431) do
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.index ["decidim_organization_id"], name: "index_decidim_centers_centers_on_decidim_organization_id"
+  end
+
+  create_table "decidim_centers_role_users", force: :cascade do |t|
+    t.bigint "decidim_centers_role_id"
+    t.bigint "decidim_user_id"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["decidim_centers_role_id"], name: "index_decidim_role_users_on_decidim_role_id"
+    t.index ["decidim_user_id"], name: "index_decidim_role_users_on_decidim_user_id"
+  end
+
+  create_table "decidim_centers_roles", force: :cascade do |t|
+    t.bigint "decidim_organization_id"
+    t.jsonb "title", null: false
+    t.datetime "deleted_at"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["decidim_organization_id"], name: "index_decidim_centers_roles_on_decidim_organization_id"
   end
 
   create_table "decidim_centers_scope_users", force: :cascade do |t|
@@ -1776,6 +1794,9 @@ ActiveRecord::Schema.define(version: 2023_12_19_143431) do
   add_foreign_key "decidim_centers_center_users", "decidim_centers_centers"
   add_foreign_key "decidim_centers_center_users", "decidim_users"
   add_foreign_key "decidim_centers_centers", "decidim_organizations"
+  add_foreign_key "decidim_centers_role_users", "decidim_centers_roles"
+  add_foreign_key "decidim_centers_role_users", "decidim_users"
+  add_foreign_key "decidim_centers_roles", "decidim_organizations"
   add_foreign_key "decidim_centers_scope_users", "decidim_scopes"
   add_foreign_key "decidim_centers_scope_users", "decidim_users"
   add_foreign_key "decidim_debates_debates", "decidim_scopes"
