@@ -31,6 +31,8 @@ checksums = [
       "/app/cells/decidim/proposals/participatory_text_proposal/buttons.erb" => "0810f2a8eebf476b67632227a5c73ff2",
       "/app/cells/decidim/proposals/participatory_text_proposal/show.erb" => "a6fd0029e01e712314f555a9397485f8",
       "/app/forms/decidim/proposals/admin/participatory_text_proposal_form.rb" => "00d3e80982cc65d51c0fd9a85445526d",
+      "/app/forms/decidim/proposals/proposal_form.rb" => "5fbf98057d0e60a7beae161a37fdd31c",
+      "/app/views/decidim/proposals/proposals/_edit_form_fields.html.erb" => "3cf530a07e4498195dab8d94b7df19d1",
       "/app/views/decidim/proposals/proposals/participatory_texts/_index.html.erb" => "6d3666c3c116689bae657da537d9deef"
     }
   }
