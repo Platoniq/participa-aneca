@@ -4,4 +4,5 @@ Rails.application.config.to_prepare do
   Decidim::RegistrationForm.include(Decidim::AccountFormOverride)
   Decidim::OmniauthRegistrationForm.include(Decidim::AccountFormOverride)
   Decidim::AccountForm.include(Decidim::AccountFormOverride)
+  Decidim::Proposals::ProposalForm.include(Decidim::Proposals::ProposalFormOverride)
 end

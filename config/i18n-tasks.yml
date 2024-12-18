@@ -9,7 +9,15 @@ ignore_missing:
   - decidim.proposals.participatory_text_proposal.buttons.amend
   - decidim.proposals.participatory_text_proposal.buttons.comment
   - decidim.proposals.participatory_text_proposal.buttons.comments
+  - decidim.proposals.proposals.edit.add_documents
+  - decidim.proposals.proposals.edit.add_image
+  - decidim.proposals.proposals.edit.attachment_legend
+  - decidim.proposals.proposals.edit.edit_documents
+  - decidim.proposals.proposals.edit.edit_image
+  - decidim.proposals.proposals.edit.gallery_legend
+  - decidim.proposals.proposals.edit.select_a_category
   - decidim.proposals.proposals.participatory_texts.index.document_index
+  - decidim.proposals.proposals.placeholder.address
   - layouts.decidim.footer.cc_by_license
   - layouts.decidim.footer.decidim_logo
   - layouts.decidim.footer.made_with_open_source
