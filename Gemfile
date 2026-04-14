@@ -54,6 +54,7 @@ group :development do
 end
 
 group :production do
+  gem "appsignal"
   gem "figaro", "~> 1.2"
   gem "sidekiq", "~> 6.0"
   gem "whenever", require: false
