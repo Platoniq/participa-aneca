@@ -4,7 +4,7 @@ source "https://rubygems.org"
 
 ruby RUBY_VERSION
 
-DECIDIM_VERSION = "0.27.4"
+DECIDIM_VERSION = "0.27.10"
 
 gem "decidim", DECIDIM_VERSION
 # gem "decidim-conferences", DECIDIM_VERSION
@@ -16,7 +16,7 @@ gem "decidim", DECIDIM_VERSION
 gem "decidim-centers", "~> 0.2.1"
 gem "decidim-decidim_awesome", "~> 0.10.0"
 gem "decidim-extra_user_fields", git: "https://github.com/Platoniq/decidim-module-extra_user_fields"
-gem "decidim-term_customizer", git: "https://github.com/mainio/decidim-module-term_customizer"
+gem "decidim-term_customizer", git: "https://github.com/mainio/decidim-module-term_customizer", branch: "release/0.27-stable"
 
 gem "bootsnap", "~> 1.3"
 
@@ -25,6 +25,8 @@ gem "puma", ">= 5.0.0"
 gem "faker", "~> 2.14"
 
 gem "wicked_pdf", "~> 2.1"
+
+gem "nokogiri", "< 1.18"
 
 group :development, :test do
   gem "byebug", "~> 11.0", platform: :mri
