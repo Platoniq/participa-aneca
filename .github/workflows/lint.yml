@@ -13,7 +13,7 @@ env:
 jobs:
   lint:
     name: Lint code
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v2.0.0
         with:
@@ -22,6 +22,7 @@ jobs:
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: ${{ env.RUBY_VERSION }}
+          rubygems: 3.4.22
           bundler-cache: true
 
       - uses: actions/setup-node@master

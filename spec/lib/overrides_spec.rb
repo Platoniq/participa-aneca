@@ -28,7 +28,6 @@ checksums = [
   {
     package: "decidim-proposals",
     files: {
-      "/app/cells/decidim/proposals/participatory_text_proposal/buttons.erb" => "0810f2a8eebf476b67632227a5c73ff2",
       "/app/cells/decidim/proposals/participatory_text_proposal/show.erb" => "a6fd0029e01e712314f555a9397485f8",
       "/app/forms/decidim/proposals/admin/participatory_text_proposal_form.rb" => "00d3e80982cc65d51c0fd9a85445526d",
       "/app/forms/decidim/proposals/proposal_form.rb" => "5fbf98057d0e60a7beae161a37fdd31c",
